@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food recipy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <script defer src="script.js"></script>
+        <nav>
+            <h2>My food recipe</h2>  
+            <ul>
+                <li><a href="#one">Home</a></li>
+                <li><a href="#two">Food Categories</a></li>
+                <li><a href="#tree">Food list</a></li>
+            </ul>
+    
+            <div class="selecter">
+               <div class="dropdown">
+               <button class="dropbtn">My Account
+               <i class="fa fa-caret-down"></i>
+               </button>
+               <div class="dropdown-content">
+               <a href="account.html">View Account</a>
+               <a href="logout.html">Log Out</a>
+            </div>    
+        </nav>  
+        <main> 
+            <section id="one">
+               
+                <div class="slideeshow"></div>
+
+                <div class="boxes" style="margin-bottom: 40px;height: 60%;">
+                    <div class="box">
+                        <img src="images/b7.jpg" alt="">
+                        <h3>Ingredient list</h3><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing <br>elit. Pariatur ratione culpa eos omnis <br>dolorfghgdgdgad fgasdhg agfa dsfgagsdkjgafg afgafga <br>gafsdgadsgkagd fghfdgfdg <br>afgadgadgrgajgkfgfajghfadkhgdfaog jfad bgnadfgadfgh <br>afhgadfhg afgafdog a </p>
+                    </div>
+
+                    <div class="box">
+                        <img src="images/b6.jpg" alt="" >
+                        <h3>Ingredient list</h3><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing <br>elit. Pariatur ratione culpa eos omnis <br>dolorfghgdgdgad fgasdhg agfa dsfgagsdkjgafg afgafga  </p>
+                    </div>
+
+                    <div class="box">
+                        <img src="images/b5.jpg" alt="">
+                        <h3>Ingredient list</h3><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing <br>elit. Pariatur ratione culpa eos omnis <br>dolorfghgdgdgad fgasdhg agfa dsfgagsdkjgafg afgafga <br>gafsdgadsgkagd fghfdgfdg <br>afgadgadgrgajgkfgfajghfadkhgdfaog jfad bgnadfgadfgh <br>afhgadfhg afgafdog a </p>
+                    </div>
+            </section>
+            <section id="two">
+                <div class="boxes">
+                    <div class="box">
+                        <img src="images/b1.jpg" alt="">
+                        <h3>Appetizer recipes</h3><br>
+                        <br>
+                        <button type="submit" class="Btn" onclick="openPopup()" >Vew list</button>
+                        <div id="overlay"></div>
+                        <div id="popup" class="popup">
+                            <div class="content">
+                            </div>
+                            <div class="boxp">
+                                <img src="images/b1.jpg" alt="">
+                                <h3>ingredient list</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="content">
+                            </div>
+                            <div class="boxp">
+                                <img src="images/b1.jpg" alt="">
+                                <h3>ingredient list</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="content">
+                            </div>
+                            <div class="boxp">
+                                <img src="images/b1.jpg" alt="">
+                                <h3>ingredient list</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="content">
+                            </div>
+                            <div class="boxp">
+                                <img src="images/b1.jpg" alt="">
+                                <h3>ingredient list</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            </div>
+                            <span onclick="closePopup()" >&times;</span>
+                        </div>
+                    </div>
+    
+                    <div class="box">
+                        <img src="images/b2.jpg" alt="">
+                        <h3>Appetizer recipes</h3><br>
+                        <br>
+                        <button type="submit" class="Btn" onclick="openPopup()" >Vew list</button>
+                    </div>   
+                    <div class="box">
+                        <img src="images/b3.jpg" alt="">
+                        <h3>Appetizer recipes</h3><br>
+                        <br>
+                        <button type="submit" class="Btn" onclick="openPopup()" >Vew list</button>
+                    </div>    
+                </div>
+
+                <div class="boxes">
+                    <div class="box">
+                        <img src="images/b8.jpg" alt="">
+                        <h3>Appetizer recipes</h3><br>
+                        <br>
+                        <button type="submit" class="Btn" onclick="openPopup()" >Vew list</button></button>
+                    </div>
+    
+    
+                    <div class="box">
+                        <img src="images/b9.jpg" alt="">
+                        <h3>Appetizer recipes</h3><br>
+                        <br>
+                        <button type="submit" class="Btn" onclick="openPopup()" >Vew list</button>
+                    </div>
+    
+    
+                    <div class="box">
+                        <img src="images/b4.jpg" alt="">
+                        <h3>Appetizer recipes</h3><br>
+                        <br>
+                        <button type="submit" class="Btn" onclick="openPopup()" >Vew list</button>
+                    </div>
+    
+                </div>
+            
+            </section>
+
+            <div class="nothing"></div>
+            <section id="tree">
+               
+                <div class="menu"><Br><Br>
+                    <h1>Food List</h1><br>
+
+                    <div class="menu-navigation">
+                        <a href="#">Add Recipt</a>
+
+                        <input type="text" placeholder="search...">
+                    </div>
+                    <iframe src="table.html" frameborder="0"></iframe>
+                </div>
+            </section>   
+        <footer></footer>
+    </div>
+       
+</body>
+</html>
